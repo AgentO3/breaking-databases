@@ -1,0 +1,9 @@
+<h1>Use Cache After</h1>
+
+<% cache(@offset) do %>
+<% @users.each do |u| %>
+<% u.emails.each do |e| %>
+<%= e.email %>
+<% end %>
+<% end %>
+<% end %>

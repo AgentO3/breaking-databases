@@ -1,0 +1,2 @@
+module MysqlN1QueriesHelper
+end

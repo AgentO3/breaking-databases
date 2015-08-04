@@ -1,0 +1,7 @@
+<h1>N +1 Query Before<h1>
+
+<% @users.each do |u| %>
+<% u.emails.each do |e| %>
+<%= e.email %>
+<% end %>
+<% end %>
